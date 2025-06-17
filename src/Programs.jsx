@@ -1,4 +1,8 @@
+
 // Program 컴포넌트
+import {Component} from "react";
+import {IonIcon} from "./IonIcon.jsx";
+
 const Programs = () => {
     const programData = [
         { icon: "barbell-outline", title: "개인 트레이닝", description: "1:1 맞춤형 지도를 통해 가장 빠르고 효과적으로 목표를 달성하세요." },

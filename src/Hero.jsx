@@ -1,5 +1,14 @@
 // Hero 컴포넌트
-const Hero = ({ scrollToSection }) => (
+const Hero = ({ scrollToSection }) => {
+
+    const imgData ={
+                img: "015.jpeg",
+                name: "클로이",
+                specialty: "근력 강화 전문가",
+                description: "NSCA-CPT, 스포츠 영양학 코치. 10년 이상의 경력으로 회원님의 근력 목표를 책임집니다."
+    };
+
+    return (
     <section className="hero-bg h-screen flex items-center justify-center pt-16">
         <div className="text-center text-white px-4">
             <h1 className="text-5xl md:text-7xl font-black uppercase mb-4 tracking-wider animate-fade-in-down">
@@ -13,6 +22,6 @@ const Hero = ({ scrollToSection }) => (
             </a>
         </div>
     </section>
-);
+)};
 
 export default Hero;

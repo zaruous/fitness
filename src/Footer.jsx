@@ -1,4 +1,6 @@
 // Footer 컴포넌트
+import {IonIcon} from "./IonIcon.jsx";
+
 const Footer = () => (
     <footer className="bg-gray-900">
         <div className="container mx-auto px-6 py-8">
