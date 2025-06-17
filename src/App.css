@@ -3,6 +3,8 @@
     font-family: 'Noto Sans KR', 'Inter', sans-serif;
     background-color: #121212;
     color: #E0E0E0;
+    overflow-y: hidden; /* 이 줄을 추가합니다. */
+
   }
   .hero-bg {
     background-size: cover;
