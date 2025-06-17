@@ -29,7 +29,7 @@ const Header = ({ scrollToSection }) => {
             <div className="container mx-auto px-6">
                 <div className="flex items-center justify-between">
                     <a href="#" onClick={(e) => { e.preventDefault(); scrollToSection('hero'); }} className="text-2xl font-bold text-white">
-                        <span className="text-sky-400">MH(화곡)</span>피트니스
+                        <span className="text-sky-400">YJ(화곡)</span>피트니스
                     </a>
                     <nav className="hidden md:flex space-x-8">
                         {navLinks.map((link) => (

@@ -25,7 +25,7 @@ export default function App() {
     };
 
     return (
-        <>
+        <div className='mx-auto w-screen overflow-y-hidden'>
             <Header scrollToSection={scrollToSection} />
             <main id="main-content" className="main-bg">
                 <div ref={sectionRefs.hero}>
@@ -45,6 +45,6 @@ export default function App() {
                 </div>
             </main>
             <Footer />
-        </>
+        </div>
     );
 }

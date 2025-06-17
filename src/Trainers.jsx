@@ -13,7 +13,7 @@ const Trainers = () => {
                 <p className="section-subtitle">최고의 실력과 경험을 갖춘 트레이너들이 당신의 여정을 함께합니다.</p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
                     {trainerData.map((trainer, index) => (
-                        <div key={index} className="bg-gray-800/80 backdrop-blur-sm rounded-lg overflow-hidden text-center">
+                        <div key={index} className="bg-gray-800/80 backdrop-blur-sm rounded-lg overflow-hidden text-center transform hover:-translate-y-2 transition-transform duration-300 shadow-lg hover:shadow-sky-500/20">
                             <img src={trainer.img} alt={`트레이너 ${trainer.name}`} className="w-full h-80 object-contain bg-gray-700/50" />
                             <div className="p-6">
                                 <h3 className="text-2xl font-bold text-white">{trainer.name}</h3>

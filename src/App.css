@@ -5,10 +5,10 @@
     color: #E0E0E0;
   }
   .hero-bg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/015.jpeg');
     background-size: cover;
     background-position: center;
   }
+
   .main-bg {
     background-image: url('https://images.unsplash.com/photo-1571902943202-507ec2618e8f?q=80&w=1975&auto=format&fit=crop');
     background-size: cover;
