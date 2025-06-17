@@ -46,7 +46,7 @@ const Header = ({ scrollToSection, setView }) => {
             <div className="container mx-auto px-6">
                 <div className="flex items-center justify-between">
                     <a href="#" onClick={goToHome} className="text-2xl font-bold text-white">
-                        MH(화곡) 피트니스
+                        YJ 피트니스
                     </a>
                     <nav className="hidden md:flex space-x-8 items-center">
                         {navLinks.map((link) => (
